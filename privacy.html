@@ -43,159 +43,32 @@
     .nav-logo span { color: var(--teal); }
     .nav-back { color: var(--muted); font-size: 0.85rem; text-decoration: none; }
     .nav-back:hover { color: var(--teal); }
-
-    main {
-      max-width: 680px;
-      margin: 0 auto;
-      padding: 60px 24px 100px;
-    }
-
-    .page-header {
-      margin-bottom: 48px;
-    }
-
-    .page-label {
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: 12px;
-    }
-
-    h1 {
-      font-family: 'Syne', sans-serif;
-      font-size: clamp(2rem, 6vw, 2.8rem);
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      line-height: 1.1;
-      margin-bottom: 16px;
-    }
-
-    .last-updated {
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-
-    .toc {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 24px;
-      margin-bottom: 48px;
-    }
-
-    .toc-title {
-      font-family: 'Syne', sans-serif;
-      font-weight: 700;
-      font-size: 0.85rem;
-      color: var(--muted);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      margin-bottom: 14px;
-    }
-
-    .toc a {
-      display: block;
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.9rem;
-      padding: 5px 0;
-      border-bottom: 1px solid var(--border);
-      transition: color 0.2s;
-    }
+    main { max-width: 680px; margin: 0 auto; padding: 60px 24px 100px; }
+    .page-header { margin-bottom: 48px; }
+    .page-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal); margin-bottom: 12px; }
+    h1 { font-family: 'Syne', sans-serif; font-size: clamp(2rem, 6vw, 2.8rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-bottom: 16px; }
+    .last-updated { font-size: 0.85rem; color: var(--muted); }
+    .toc { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; padding: 24px; margin-bottom: 48px; }
+    .toc-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.85rem; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 14px; }
+    .toc a { display: block; color: var(--muted); text-decoration: none; font-size: 0.9rem; padding: 5px 0; border-bottom: 1px solid var(--border); transition: color 0.2s; }
     .toc a:last-child { border-bottom: none; }
     .toc a:hover { color: var(--teal); }
-
-    .section {
-      margin-bottom: 48px;
-    }
-
-    h2 {
-      font-family: 'Syne', sans-serif;
-      font-size: 1.3rem;
-      font-weight: 800;
-      margin-bottom: 16px;
-      color: var(--white);
-      scroll-margin-top: 80px;
-    }
-
-    p {
-      color: #b0b0c8;
-      margin-bottom: 14px;
-    }
-
-    ul, ol {
-      padding-left: 20px;
-      color: #b0b0c8;
-      margin-bottom: 14px;
-    }
-
+    .section { margin-bottom: 48px; }
+    h2 { font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 800; margin-bottom: 16px; color: var(--white); scroll-margin-top: 80px; }
+    p { color: #b0b0c8; margin-bottom: 14px; }
+    ul, ol { padding-left: 20px; color: #b0b0c8; margin-bottom: 14px; }
     li { margin-bottom: 8px; }
-
-    .data-card {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 14px;
-    }
-
-    .data-card h3 {
-      font-family: 'Syne', sans-serif;
-      font-weight: 700;
-      font-size: 0.9rem;
-      color: var(--teal);
-      margin-bottom: 10px;
-    }
-
-    .data-card ul {
-      margin: 0;
-    }
-
+    .data-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 14px; }
+    .data-card h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem; color: var(--teal); margin-bottom: 10px; }
+    .data-card ul { margin: 0; }
     .data-card li { font-size: 0.9rem; }
-
-    .no-collect {
-      background: rgba(255,60,60,0.05);
-      border: 1px solid rgba(255,60,60,0.15);
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 14px;
-    }
-
-    .no-collect h3 {
-      font-family: 'Syne', sans-serif;
-      font-weight: 700;
-      font-size: 0.9rem;
-      color: #ff6b6b;
-      margin-bottom: 10px;
-    }
-
+    .no-collect { background: rgba(255,60,60,0.05); border: 1px solid rgba(255,60,60,0.15); border-radius: 12px; padding: 20px; margin-bottom: 14px; }
+    .no-collect h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.9rem; color: #ff6b6b; margin-bottom: 10px; }
     .no-collect li { font-size: 0.9rem; }
-
-    .highlight-box {
-      background: rgba(0,212,170,0.06);
-      border: 1px solid rgba(0,212,170,0.2);
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 14px;
-    }
-
-    .highlight-box p {
-      margin: 0;
-      font-size: 0.92rem;
-      color: #c0e8e0;
-    }
-
+    .highlight-box { background: rgba(0,212,170,0.06); border: 1px solid rgba(0,212,170,0.2); border-radius: 12px; padding: 20px; margin-bottom: 14px; }
+    .highlight-box p { margin: 0; font-size: 0.92rem; color: #c0e8e0; }
     a { color: var(--teal); }
-
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 32px 24px;
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.82rem;
-    }
+    footer { border-top: 1px solid var(--border); padding: 32px 24px; text-align: center; color: var(--muted); font-size: 0.82rem; }
     footer a { color: var(--muted); text-decoration: none; }
     footer a:hover { color: var(--teal); }
   </style>
@@ -211,7 +84,7 @@
     <div class="page-header">
       <div class="page-label">Legal</div>
       <h1>Privacy Policy</h1>
-      <p class="last-updated">Last updated: January 2025</p>
+      <p class="last-updated">Last updated: October 2026</p>
     </div>
 
     <div class="toc">
@@ -230,7 +103,7 @@
     <div class="section" id="overview">
       <h2>Overview</h2>
       <div class="highlight-box">
-        <p>FocusPulse is a free productivity app. Your focus data stays on your device. We collect only anonymous analytics to improve the app. We will never sell your data — ever.</p>
+        <p>FocusPulse is a free productivity app. Your focus data stays on your device. We collect only anonymous analytics to improve the app. We will never sell your data.</p>
       </div>
       <p>This policy applies to the FocusPulse Android app and this website. By using FocusPulse, you agree to the terms described here.</p>
     </div>
@@ -239,59 +112,72 @@
       <h2>What we collect</h2>
 
       <div class="data-card">
-        <h3>📱 Stored on your device only (we never see this)</h3>
+        <h3>📱 Stored on your device only</h3>
         <ul>
           <li>Session start and end times</li>
           <li>Session duration preferences</li>
           <li>Focus scores and response times</li>
-          <li>Vibration pattern preferences</li>
+          <li>Vibration pattern and frequency preferences</li>
           <li>Theme preference (dark/light)</li>
           <li>Session history</li>
         </ul>
       </div>
 
       <div class="data-card">
-        <h3>📊 Anonymous analytics (via Firebase — Google)</h3>
+        <h3>📊 Anonymous analytics (via Firebase, by Google)</h3>
         <ul>
           <li>App opens and closes</li>
-          <li>Which features you use — no personal data attached</li>
+          <li>Which features you use, such as starting a session, changing a setting or viewing a screen</li>
+          <li>Session timing: how long a session ran, how many alerts it had, and how many you responded to</li>
+          <li>Your answer on the feedback card (Yes, A little or No), and whether you skipped it</li>
+          <li>Any comment you choose to type on the feedback card. Only the first 100 characters are sent.</li>
+          <li>Whether you allowed notifications</li>
           <li>Crash reports (so we can fix bugs)</li>
-          <li>Device model and OS version</li>
-          <li>General location: country/city only — NOT precise GPS</li>
+          <li>Device model and Android version</li>
+          <li>Approximate location: country and city only. We do not collect precise GPS.</li>
         </ul>
       </div>
 
-      <p>All analytics data is anonymous. It cannot be linked back to you as an individual.</p>
+      <div class="data-card">
+        <h3>✉️ Messages you send us</h3>
+        <ul>
+          <li>If you use "Send Feedback" in Settings, your email app opens with a message pre-filled with your phone's manufacturer, model and Android version. If you send it, we receive your email address and everything you write.</li>
+        </ul>
+      </div>
+
+      <p>Analytics data is not linked to your name or email address. We do not have accounts, so we have no way to match analytics to a specific person.</p>
     </div>
 
     <div class="section" id="what-we-dont-collect">
       <h2>What we do NOT collect</h2>
 
       <div class="no-collect">
-        <h3>We never collect:</h3>
+        <h3>We do not ask for:</h3>
         <ul>
-          <li>❌ Your name, email, or phone number</li>
+          <li>❌ Your name or phone number</li>
           <li>❌ Precise GPS location</li>
           <li>❌ Access to your contacts, photos, or files</li>
           <li>❌ Microphone or camera access</li>
           <li>❌ Browsing history</li>
-          <li>❌ Any personally identifiable information</li>
+          <li>❌ Any other personal information</li>
         </ul>
       </div>
+      <p>Please don't include personal details, such as your name, phone number or address, in feedback comments or emails. We don't need them to improve the app.</p>
     </div>
 
     <div class="section" id="third-party">
       <h2>Third-party services</h2>
       <p>FocusPulse uses <strong>Firebase</strong> (by Google) for anonymous analytics and crash reporting. Firebase may collect device identifiers and usage data as described in <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+      <p>FocusPulse also uses <strong>Google Play</strong> to deliver app updates and, occasionally, to show a short review prompt. Google Play handles those prompts under its own privacy terms.</p>
       <p>No other third-party services have access to your data.</p>
     </div>
 
     <div class="section" id="your-rights">
       <h2>Your rights</h2>
       <ul>
-        <li><strong>Delete your local data:</strong> Go to Settings → Clear All Sessions in the app.</li>
-        <li><strong>Anonymous analytics:</strong> Your analytics data is anonymous — we can't link it to you specifically.</li>
-        <li><strong>Data deletion requests:</strong> Email us and we will respond within 48 hours.</li>
+        <li><strong>Delete data stored on your phone:</strong> Open the app, go to Settings → DATA → Clear All Sessions. Uninstalling the app also removes everything stored on your phone.</li>
+        <li><strong>Anonymous analytics:</strong> Analytics data is deleted automatically after 2 months. We cannot link it to you, so we cannot identify your records.</li>
+        <li><strong>Other deletion requests:</strong> Follow the steps on our <a href="delete-data.html">data deletion page</a>, or email us at <a href="mailto:tryfocuspulse@gmail.com">tryfocuspulse@gmail.com</a> with the subject "Delete my data". We respond within 48 hours.</li>
       </ul>
     </div>
 
@@ -302,24 +188,24 @@
 
     <div class="section" id="compliance">
       <h2>Legal compliance</h2>
-      <p>FocusPulse is designed to comply with:</p>
+      <p>FocusPulse is designed with these laws in mind:</p>
       <ul>
-        <li><strong>GDPR</strong> — General Data Protection Regulation (European Union)</li>
-        <li><strong>CCPA</strong> — California Consumer Privacy Act</li>
-        <li><strong>NDPR</strong> — Nigeria Data Protection Regulation</li>
-        <li><strong>COPPA</strong> — Children's Online Privacy Protection Act</li>
+        <li><strong>GDPR</strong>: General Data Protection Regulation (European Union)</li>
+        <li><strong>CCPA</strong>: California Consumer Privacy Act</li>
+        <li><strong>NDPR</strong>: Nigeria Data Protection Regulation</li>
+        <li><strong>COPPA</strong>: Children's Online Privacy Protection Act</li>
       </ul>
     </div>
 
     <div class="section" id="updates">
       <h2>Policy updates</h2>
-      <p>We may update this policy as the app grows. The "Last Updated" date at the top of this page will always reflect the latest version. We encourage you to check back periodically.</p>
+      <p>We may update this policy as the app grows. The "Last updated" date at the top of this page always shows the latest version. We encourage you to check back periodically.</p>
     </div>
 
     <div class="section" id="contact">
       <h2>Contact</h2>
       <p>Questions about this policy or your data?</p>
-      <p>📧 <a href="mailto:pelu.educate@gmail.com">pelu.educate@gmail.com</a></p>
+      <p>📧 <a href="mailto:tryfocuspulse@gmail.com">tryfocuspulse@gmail.com</a></p>
       <p>We respond within 48 hours.</p>
     </div>
   </main>
@@ -329,6 +215,9 @@
       <a href="index.html">← Home</a>
       <a href="screenshots.html">Screenshots</a>
       <a href="contact.html">Contact</a>
+      <a href="delete-data.html">Delete your data</a>
     </div>
-    <p>© 2025 FocusPulse. All rights reserved.</p>
+    <p>© 2025–2026 FocusPulse. All rights reserved.</p>
   </footer>
+</body>
+</html>
